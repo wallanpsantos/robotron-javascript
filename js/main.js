@@ -1,12 +1,12 @@
-const braco = document.getElementById('braco');
-const controles = document.querySelectorAll('.controle-ajuste');
+const controles = document.querySelectorAll('[data-controle]');
 
 controles.forEach((elemento) => {
     elemento.addEventListener('click', (evento) => {
-        manipularControle(evento.target.textContent);
+        manipularControle(evento.target.textContent, evento.target.parentNode);
     })
 })
 
-function manipularControle(evento) {
-    (evento === "+") ? braco.value = parseInt(braco.value) + 1 : braco.value = parseInt(braco.value) - 1;
+function manipularControle(operacao, controle) {
+    const peca = controle.querySelector(".controle-contador");
+    (operacao === "+") ? peca.value = parseInt(peca.value) + 1 : peca.value = parseInt(peca.value) - 1;
 }
