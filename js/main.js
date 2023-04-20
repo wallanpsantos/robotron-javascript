@@ -57,3 +57,7 @@ function atualizaEstatistica(peca) {
     })
 
 }
+
+function trocaImagem(cor) {
+    document.querySelector('.robo').src = "img/robotron_" + cor + ".png";
+}
