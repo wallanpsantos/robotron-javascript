@@ -1,6 +1,6 @@
 # robotron-javascript
 
-<img width="40%" align="center" alt="Robotron" src="https://github.com/wallanpsantos/robotron-javascript/blob/main/img/robotron.png"/>
+<img width="40%" align="center" alt="Robotron" src="https://github.com/wallanpsantos/robotron-javascript/blob/main/img/robotron_branco.png"/>
 
 Projeto curso da alura robotron-2000: https://pedromarins.com/alura-robotron/
 
